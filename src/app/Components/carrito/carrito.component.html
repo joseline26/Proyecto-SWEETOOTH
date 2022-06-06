@@ -1,0 +1,15 @@
+<div class="row">
+    <div class="col l6 push-l1">
+        <div class= "row valign-wrapper">
+            <h5 class="col l6 left-align" style="font-family: 'Montserrat', sans-serif; font-weight: 600;margin-top: 100px;margin-left: 15px;">ITEMS</h5>
+            <small class="col l6 right-align" style="font-family: 'Montserrat', sans-serif;"><strong>Order Number: XXXXXXXXX</strong></small>
+        </div>
+        <div class="col l12">
+            <app-tarjeta-carrito *ngFor="let product of productService.getCart()" [data] = "product"></app-tarjeta-carrito>
+        </div>
+    </div>
+    <div class="col l5 push-l3">
+        <h6 style="font-family: 'Montserrat', sans-serif; font-weight: 300;margin-top: 100px;">Total Items: <strong>XX</strong></h6>
+        <a class="btn order" routerLink="/cart" style="font-family: 'Montserrat', sans-serif;" onclick="alert('ORDER CONFIRMED')">Place Order</a>
+    </div>
+</div>

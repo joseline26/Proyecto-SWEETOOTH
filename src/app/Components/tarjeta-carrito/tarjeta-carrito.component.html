@@ -1,0 +1,24 @@
+<div class="card horizontal valign-wrapper">
+    <div class="card-image">
+        <img src="assets/Resources/{{data.img}}.jpg">
+    </div>
+    <div class="card-stacked">
+        <div class="card-content">
+            <span class="card-title" style="font-family: 'Montserrat', sans-serif;"><strong>{{data.title}}</strong></span>
+            <p style="font-family: 'Montserrat', sans-serif;">{{data.qty_c}}</p>
+        </div>
+        <div class="card-action center-align">
+            <div class="quantity row">
+                <div class="col l7 valign-wrapper">
+                    <a class="minus-btn col l1">
+                        <i class="material-icons" (click)="removeFromCart()">remove</i>
+                    </a>
+                    <input type="text" class="center-align col l2" value="{{data.qty_c}}" style="font-family: 'Inter', sans-serif;">
+                    <a class="plus-btn col l1">
+                        <i class="material-icons" (click)="addToCart()">add</i>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

@@ -1,0 +1,3 @@
+<div *ngFor="let product of productService.products">
+  <app-template *ngIf="goToPage(product)" [data]="product"></app-template>
+</div>

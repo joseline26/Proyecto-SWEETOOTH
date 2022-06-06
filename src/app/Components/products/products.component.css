@@ -1,0 +1,37 @@
+.eltexto{
+    font-family: 'Inter', sans-serif;
+    font-weight: 100;
+    font-size: 14px;
+    text-align: center;
+    margin-bottom: 25px;
+ }
+ 
+ .candies
+ {
+     margin-top: 70px;
+ }
+ 
+ #candy
+ {
+     height: 200px;
+     margin-bottom: 20px;
+ }
+ 
+ 
+ .btn{
+     display: inline-block;
+     align-items: flex-end;
+     margin-top: 20px;
+     font-family: 'Inter', sans-serif;
+     font-weight: 600;
+     font-size: 12px;
+     border-radius: 14px;
+     background-color: #ff75a1a7;
+     border: none;
+     box-shadow: 2px 5px rgba(0, 0, 0, 0.2);
+ }
+
+ .details{
+     margin-top: 10px;
+    background-color: #95e1d3;
+ }

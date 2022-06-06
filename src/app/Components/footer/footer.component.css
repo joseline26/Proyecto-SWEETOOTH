@@ -1,0 +1,23 @@
+.icons{
+    height: 25px;
+    width: 25px;
+    margin: 5px;
+}
+
+.page-footer{
+    background-color: #fce38a;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.footer-copyright{
+    font-family: 'Montserrat', sans-serif;
+}
+
+.row{
+    margin-bottom: 0px;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.col-4{
+    padding: 20px;
+}

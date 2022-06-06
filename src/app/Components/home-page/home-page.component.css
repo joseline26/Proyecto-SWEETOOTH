@@ -1,0 +1,81 @@
+.editions img{
+    padding: 15px;
+}
+
+.editions h5{
+    top: 30px;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.titulo{
+    color: #f1749f;
+}
+
+.btn{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+    background-color: #95e1d3;
+    border: none;
+    box-shadow: 2px 5px rgba(0, 0, 0, 0.2);
+    border-radius: 30px;
+}
+
+.carousel-item h2{
+    position:absolute; 
+    z-index:3;
+    padding-left: 570px;
+    padding-top: 180px;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.row h5{
+    padding-left: 28px;
+    font-weight: bold;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.row h4{
+   font-weight: bold;
+   font-family: 'Montserrat', sans-serif;
+}
+
+.options{
+   background-color: #f1759e;
+}
+
+p{
+    font-family: 'Montserrat', sans-serif;
+}
+
+.row .col.s3{
+    margin-left: 60px;
+}
+
+.row{
+    margin-bottom: 0px;
+    padding-top: 50px;
+    padding-bottom: 90px;
+}
+
+.themes{
+    margin-left: 55px;
+}
+
+.subscription{
+    background-color: white;
+    border-radius: 50px;
+    margin-left: 50px;
+    margin-right: 50px;
+    padding-bottom: 30px;
+}
+
+.subscription h4{
+    color: #f1749f;
+}
+
+.options h3{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bolder;
+    color: white;
+    padding: 20px;
+}

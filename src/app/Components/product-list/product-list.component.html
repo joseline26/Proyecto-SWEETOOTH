@@ -1,0 +1,7 @@
+<div>
+        <h4 class="center-align" style="font-family: 'Montserrat', sans-serif; font-weight: 700;margin-bottom: 30px;margin-top:50px;">Boxes</h4>
+</div>
+<div class="row">
+        <app-products *ngFor="let product of productService.products" [data]="product"></app-products>
+</div>
+
