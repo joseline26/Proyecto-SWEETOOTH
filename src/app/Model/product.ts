@@ -5,6 +5,5 @@ export interface Producto{
     qty_c: number
     img: string
     description: string
-    updatedAt: string
-    createdAt: string
+    content: string
 }

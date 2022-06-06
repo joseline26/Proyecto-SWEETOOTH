@@ -4,3 +4,12 @@
     border-bottom: 1px solid black;
     position: absolute;
     }
+
+.order{
+    font-weight: 600;
+    font-size: 14px;
+    border-radius: 14px;
+    background-color: #95e1d3;
+    border: none;
+    box-shadow: 2px 5px rgba(0, 0, 0, 0.2);
+}
